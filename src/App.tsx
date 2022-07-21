@@ -1,11 +1,14 @@
-import React from 'react';
-import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import CardList from './components/card-list/CardList';
 
-function App() {
+const App = () => {
   return (
-    <div className="">
-      in
+    <div>
+      <CardList />
     </div>
+
+
+
   );
 }
 
